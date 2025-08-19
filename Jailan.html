@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jailan Kivia | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white shadow z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">Jailan Kivia</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#skills" class="hover:text-indigo-600">Skills</a>
+        <a href="#experience" class="hover:text-indigo-600">Experience</a>
+        <a href="#projects" class="hover:text-indigo-600">Projects</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-4 animate-bounce">Jailan Kivia</h1>
+    <h2 class="text-xl md:text-2xl mb-6">Highly dedicated self-motivated professional researcher, data & business analyst</h2>
+    <p class="max-w-2xl text-lg leading-relaxed">
+      “I use data to speak the truth. My love for data started with my childhood curiosity — 
+      I always questioned everything until I saw evidence. Growing up, I realized that evidence is data. 
+      Today, I tell true stories using data.”
+    </p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6 text-center text-indigo-600">About Me</h2>
+    <p class="text-lg leading-relaxed text-gray-700 text-justify">
+      I specialize in transforming raw information into meaningful insights. From designing digital questionnaires in Excel 
+      for ODK/Kobo/SurveyToGo, to intensive statistical analysis in Stata, to data storytelling with Power BI, 
+      I thrive on bringing clarity through evidence. My toolkit also includes Python for data querying and ArcGIS for mapping. 
+      My experiences span from academic research to practical training at Ifakara Health Institute and managing our family business in Bagamoyo.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 px-8 bg-gray-100">
+    <h2 class="text-4xl font-bold mb-10 text-center text-indigo-600">Skills</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition"><i class="ph ph-file-excel text-4xl text-green-600"></i><p>Microsoft Excel</p></div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition"><i class="ph ph-bar-chart text-4xl text-blue-600"></i><p>Stata</p></div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition"><i class="ph ph-chart-pie text-4xl text-yellow-500"></i><p>Power BI</p></div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition"><i class="ph ph-code text-4xl text-purple-600"></i><p>Python</p></div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition"><i class="ph ph-globe text-4xl text-red-500"></i><p>ArcGIS</p></div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-xl transition"><i class="ph ph-clipboard-text text-4xl text-indigo-600"></i><p>ODK / Kobo / SurveyToGo</p></div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-20 px-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-10 text-center text-indigo-600">Experience</h2>
+    <ul class="space-y-6 text-lg text-gray-700">
+      <li><strong>Ifakara Health Institute (Vector Control Product Testing Unit, Bagamoyo):</strong> 
+        Data officer — data entry, cleaning, and analysis for health research studies.</li>
+      <li><strong>Bagamoyo F & B Solutions Ltd:</strong> 
+        Business Manager — handled accounts, procurement, and logistics in family business.</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-8 bg-gray-100">
+    <h2 class="text-4xl font-bold mb-10 text-center text-indigo-600">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <!-- Stata Projects -->
+      <a href="https://github.com/jailankivia/portfolio/blob/main/stata-project.do" 
+         target="_blank" 
+         class="block p-6 bg-white rounded-2xl shadow hover:shadow-2xl transition">
+        <h3 class="font-bold text-xl mb-2">Stata Projects</h3>
+        <p>Data cleaning, regression analysis, statistical modeling. 
+        <span class="text-indigo-600">[View Project]</span></p>
+      </a>
+      
+      <!-- Excel Projects -->
+      <a href="https://github.com/jailankivia/portfolio/blob/main/excel-project.xlsx" 
+         target="_blank" 
+         class="block p-6 bg-white rounded-2xl shadow hover:shadow-2xl transition">
+        <h3 class="font-bold text-xl mb-2">Excel Projects</h3>
+        <p>Questionnaire design, entry templates, pivot tables. 
+        <span class="text-indigo-600">[Download Excel]</span></p>
+      </a>
+      
+      <!-- Power BI Projects -->
+      <a href="https://app.powerbi.com/view?r=YOUR_PBI_PUBLIC_LINK" 
+         target="_blank" 
+         class="block p-6 bg-white rounded-2xl shadow hover:shadow-2xl transition">
+        <h3 class="font-bold text-xl mb-2">Power BI Projects</h3>
+        <p>Dashboards, data storytelling, business analytics. 
+        <span class="text-indigo-600">[Open Dashboard]</span></p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-8 max-w-5xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-6 text-indigo-600">Contact Me</h2>
+    <p class="text-lg mb-6">Let’s connect and talk data.</p>
+    <div class="space-y-3 text-lg">
+      <p><i class="ph ph-envelope text-indigo-600"></i> 
+        <a href="mailto:jailanikivia@gmail.com" class="text-blue-600">jailanikivia@gmail.com</a>
+      </p>
+      <p><i class="ph ph-phone text-indigo-600"></i> 
+        <a href="tel:+255742081331" class="text-blue-600">+255 742 081 331</a>
+      </p>
+      <p><i class="ph ph-linkedin-logo text-indigo-600"></i> 
+        <a href="https://linkedin.com/in/jailan-kivia" target="_blank" class="text-blue-600">LinkedIn: Jailan Kivia</a>
+      </p>
+      <p><i class="ph ph-github-logo text-indigo-600"></i> 
+        <a href="https://github.com/jailankivia" target="_blank" class="text-blue-600">GitHub: jailankivia</a>
+      </p>
+    </div>
+  </section>
+
+  <script>
+    // Smooth scroll
+    const scroll = new SmoothScroll('a[href*="#"]', { speed: 700 });
+  </script>
+</body>
+</html>
 
